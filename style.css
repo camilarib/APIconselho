@@ -1,0 +1,46 @@
+/*@import url('https://static.vecteezy.com/ti/vetor-gratis/p3/6684930-biscoito-da-sorte-chines-com-fundo-branco-dentro-cookies-com-um-pedaco-de-papel-ilustracaoial-vetor.jpg');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-image: url(https://img.freepik.com/vetores-gratis/padrao-de-biscoito-da-sorte-desenhado-a-mao_23-2149256059.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .advice{
+    width: 85%;
+    padding: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    margin: 7.5rem;
+}
+
+.container .button{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    color: #f79bc5;
+    border: none;
+    font-size: 16px;
+    width: 150px;
+    background-color: #f79bc5;
+}
+
+footer{
+    color: black;
+}
